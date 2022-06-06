@@ -1,2 +1,2 @@
-def greeting():
-    return 'test'
+def greeting(name):
+    return f'Hello {name}'
