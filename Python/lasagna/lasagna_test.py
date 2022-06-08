@@ -7,3 +7,4 @@ def test_bake_time_remaining():
     actualTimeRemaining = 20
     assert bake_time_remaining(actualTimeRemaining) == 20
     assert bake_time_remaining(30) == 10
+    assert bake_time_remaining(35) == 5
