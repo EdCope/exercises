@@ -13,3 +13,8 @@ def test_preparation_time_in_minutes():
     number_of_layers = 3
     assert preparation_time_in_minutes(number_of_layers) == 6
     assert preparation_time_in_minutes(1) == 2
+
+def test_elapsed_time_in_minutes():
+    number_of_layers = 3
+    elapsed_bake_time = 20
+    assert elapsed_time_in_minutes(number_of_layers, elapsed_bake_time) == 26
